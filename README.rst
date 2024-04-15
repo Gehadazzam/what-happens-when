@@ -209,6 +209,9 @@ Check HSTS list
 DNS lookup
 ----------
 
+* Understanding the Basics:
+
+   Computers communicate using binary code, consisting of zeros and ones. When you enter a web address like “https://www.google.com," your browser needs to    translate that human-readable domain name into an IP address, the unique numerical identifier of the server hosting the website. This translation process is    called a DNS (Domain Name System) request.
 * Browser checks if the domain is in its cache. (to see the DNS Cache in
   Chrome, go to `chrome://net-internals/#dns <chrome://net-internals/#dns>`_).
 * If not found, the browser calls ``gethostbyname`` library function (varies by
